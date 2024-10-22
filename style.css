@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    background-image: url(image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10vw; 
+  }
+  
+  .clock {
+    font-size: 5rem;
+    padding: 20px;
+    border: 5px solid #00FF00;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      padding-left: 5vw; 
+    }
+  
+    .clock {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      padding-left: 2vw; 
+    }
+  
+    .clock {
+      font-size: 2rem;
+    }
+  }
+  
